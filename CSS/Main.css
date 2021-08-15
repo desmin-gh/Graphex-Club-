@@ -1,0 +1,85 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+  }
+  p.small {
+      line-height: 0.3;
+  }
+  /* Header/logo Title */
+  .header {
+    padding: 280px;
+    text-align: center;
+    background:linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url("/Users/prash/Downloads/Graphex-Club-Web-master/Images/head.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 120px;
+  }
+  
+  .Overview{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.76);
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    position: sticky;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    position: sticky;
+    background-color: whitesmoke;
+    color: lightslategray;
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    background:linear-gradient( rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.651) ), url("/Users/prash/Downloads/Graphex-Club-Web-master/Images/overview.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    color: rgb(255, 255, 255);
+    -ms-flex:50%; /* IE10 */
+    flex:50%;
+    background-color: #f1f1f1;
+    padding: 120px;
+  }
+
